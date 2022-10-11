@@ -99,19 +99,19 @@ const Blogs = () => {
                 className="inline-block text-slate-600 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
                 <p className="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
-                  What is the purpose of React Router?
+                  What is the useRef hook in React?
                 </p>
               </p>
             </div>
             <p className="text-gray-500">
-              React Router is a standard library for routing in React. It
-              enables the navigation among views of various components in a
-              React Application, allows changing the browser URL, and keeps the
-              UI in sync with the URL. At its heart, React Router is a state
-              container for the current location , or URL. It keeps track of the
-              location and renders different Route s as it changes, and it also
-              gives you tools to update the location using Link s and the
-              history API.
+              The useRef is a hook that allows to directly create a reference to
+              the DOM element in the functional component.The useRef returns a
+              mutable ref object. This object has a property called .current.
+              The value is persisted in the refContainer.current property. These
+              values are accessed from the current property of the returned
+              object. The .current property could be initialised to the passed
+              argument initialValue e.g. useRef(initialValue). The object can
+              persist a value for a full lifetime of the component.
             </p>
           </div>
         </div>
