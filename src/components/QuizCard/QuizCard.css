@@ -17,6 +17,18 @@
   transition: background-color 0.3s ease;
 }
 
+.error {
+  background-color: #f55c5c !important;
+  color: #fff;
+  border-color: #b42828 !important;
+}
+
+.success {
+  background-color: #57f962 !important;
+  color: #fff;
+  border-color: #08740f !important;
+}
+
 .options li:hover {
   background-color: #ccc;
 }
