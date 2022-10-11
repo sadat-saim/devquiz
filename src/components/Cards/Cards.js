@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 
 const Cards = () => {
   const topics = useLoaderData().data;
-  console.log(topics);
+
   return (
     <div className="container mx-auto my-10">
       <h1 className="md:text-5xl lg:text-5xl text-4xl font-bold m-4">

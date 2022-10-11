@@ -9,7 +9,6 @@ const QuizCard = ({ quiz }) => {
   const [rightAnswer, setRightAnswer] = useState(false);
   const { question, options, correctAnswer, id } = quiz;
   const alpArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
-  console.log(quiz);
 
   const handleAnswer = (option) => {
     setRightAnswer(true);

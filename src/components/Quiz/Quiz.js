@@ -3,8 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import QuizCard from "../QuizCard/QuizCard";
 
 const Quiz = () => {
-  const { id, logo, name, questions, total } = useLoaderData().data;
-  //   console.log(quizes);
+  const { logo, name, questions } = useLoaderData().data;
   return (
     <div className="container mx-auto">
       <img

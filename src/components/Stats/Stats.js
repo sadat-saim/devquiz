@@ -13,7 +13,7 @@ import {
 
 const Stats = () => {
   const data = useLoaderData().data;
-  console.log(data);
+
   return (
     <div className="container mx-auto grid place-items-center">
       <p className="mx-2 my-6">Topics and Number of Quiz</p>
