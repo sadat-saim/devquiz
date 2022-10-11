@@ -1,0 +1,22 @@
+.marker {
+  font-weight: bold;
+  color: #fff;
+  background-color: #656565;
+  align-self: center;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  height: 100%;
+}
+
+.options li {
+  border: 1px solid #ddd;
+  padding: 0.7rem 0.5rem;
+  background-color: #f4f4f4;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options li:hover {
+  background-color: #ccc;
+}
