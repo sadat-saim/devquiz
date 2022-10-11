@@ -48,7 +48,7 @@ const QuizCard = ({ quiz }) => {
                 }
               >
                 <span className="marker"> {alpArr[idx]}</span>{" "}
-                <span className="self-center">{option}</span>
+                <span className="self-center text-gray-600">{option}</span>
               </li>
             ))}
           </ul>

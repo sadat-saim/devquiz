@@ -9,17 +9,13 @@
 }
 
 .question span {
-  font-size: 1rem;
-  line-height: 0px;
-  color: #737373 !important;
-  font-weight: 400;
+  color: #a6adb2 !important;
 }
 
 .options li {
   border: 1px solid #ddd;
   padding: 0.7rem 0.5rem;
   background-color: #f4f4f4;
-  color: rgb(61, 61, 61);
   border-radius: 0.3rem;
   cursor: pointer;
   transition: background-color 0.3s ease;

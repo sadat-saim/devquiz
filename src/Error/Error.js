@@ -21,7 +21,7 @@ const Error = () => {
               <button
                 rel="noopener noreferrer"
                 href="#"
-                className="px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-gray-900"
+                className="px-8 py-3 font-semibold rounded bg-violet-400 text-gray-900"
               >
                 Back to homepage
               </button>
