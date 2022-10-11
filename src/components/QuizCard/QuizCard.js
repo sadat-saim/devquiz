@@ -27,10 +27,10 @@ const QuizCard = ({ quiz }) => {
     <div>
       <div className="p-4 lg:w-2/3 md:w-4/5 w-11/12 mx-auto my-3 rounded-md">
         <div className="font-bold text-2xl mb-6 flex justify-between">
-          {parse(question)}
+          <div className="question">{parse(question)}</div>
           <CheckCircleIcon
             onClick={handleShowAnswer}
-            className="h-full w-6 self-end cursor-pointer text-green-400"
+            className="h-full w-7 self-center cursor-pointer text-green-400"
           />
         </div>
         <div>
@@ -47,7 +47,8 @@ const QuizCard = ({ quiz }) => {
                     : "px-2 py-1 my-2 flex"
                 }
               >
-                <span className="marker"> {alpArr[idx]}</span> {option}
+                <span className="marker"> {alpArr[idx]}</span>{" "}
+                <span className="self-center">{option}</span>
               </li>
             ))}
           </ul>
