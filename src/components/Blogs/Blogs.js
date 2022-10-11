@@ -87,7 +87,7 @@ const Blogs = () => {
                 className="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 aria-label="Category"
               >
-                React Router
+                React
               </p>
               <p className="text-gray-600">11 Oct 2022</p>
             </div>

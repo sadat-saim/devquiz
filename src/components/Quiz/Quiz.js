@@ -8,7 +8,7 @@ const Quiz = () => {
   return (
     <div className="container mx-auto">
       <img
-        className="block mx-auto bg-slate-300 rounded-md w-1/5"
+        className="block mx-auto mt-4 bg-slate-300 rounded-md w-1/5"
         src={logo}
         alt={name}
       />
